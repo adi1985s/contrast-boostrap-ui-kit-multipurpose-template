@@ -1,0 +1,43 @@
+{
+  "_from": "file:contrast-bootstrap-free-1.0.0.tgz",
+  "_id": "contrast-bootstrap-free@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-bbg76S8+DL8XA591NOrv8F2++2ffP3YbToAUdnBeFS/GTasWjgVTLTqrMedvCHs+u/WnBPtxuCZQpgAmEPHqOQ==",
+  "_location": "/contrast-bootstrap-free",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "C:\\Users\\Makinde Opeyemi\\Desktop\\Folder\\Yarn\\vanilla-js\\cdbootstrap-demo-free",
+    "raw": "contrast-bootstrap-free@file:contrast-bootstrap-free-1.0.0.tgz",
+    "name": "contrast-bootstrap-free",
+    "escapedName": "contrast-bootstrap-free",
+    "rawSpec": "file:contrast-bootstrap-free-1.0.0.tgz",
+    "saveSpec": "file:contrast-bootstrap-free-1.0.0.tgz",
+    "fetchSpec": "C:\\Users\\Makinde Opeyemi\\Desktop\\Folder\\Yarn\\vanilla-js\\cdbootstrap-demo-free\\contrast-bootstrap-free-1.0.0.tgz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "C:\\Users\\Makinde Opeyemi\\Desktop\\Folder\\Yarn\\vanilla-js\\cdbootstrap-demo-free\\contrast-bootstrap-free-1.0.0.tgz",
+  "_shasum": "df8cd60d25f3eedd38fe66c91d9cc0976e45b9db",
+  "_spec": "contrast-bootstrap-free@file:contrast-bootstrap-free-1.0.0.tgz",
+  "_where": "C:\\Users\\Makinde Opeyemi\\Desktop\\Folder\\Yarn\\vanilla-js\\cdbootstrap-demo-free",
+  "author": {
+    "name": "Devwares"
+  },
+  "bugs": {
+    "url": "https://github.com/Devwares-Team/contrast-bootstrap-free/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "> Elegant UI Kit and reusable components for building mobile-first, responsive webistes and web apps",
+  "homepage": "https://github.com/Devwares-Team/contrast-bootstrap-free#readme",
+  "license": "ISC",
+  "main": "js/cdb.js",
+  "name": "contrast-bootstrap-free",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devwares-Team/contrast-bootstrap-free.git"
+  },
+  "version": "1.0.0"
+}
