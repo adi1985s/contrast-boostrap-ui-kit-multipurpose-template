@@ -1,0 +1,241 @@
+.about {
+	max-width:100%;
+	overflow-x:hidden;
+}
+
+.about * {
+	transition:all 0.3s ease;
+}
+
+.about .image {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	-moz-object-fit: cover;
+	-ms-object-fit: cover;
+}
+
+.about .page-header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index:1;
+}
+
+.about .navigation {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index:2;
+}
+
+.about .navigation, .about .footer {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1320px;
+}
+
+.about .navigation a {
+	color:white;
+	font-weight: 600;
+}
+
+.about .about-container {
+	width: 80%;
+	margin: 15rem auto 0 auto !important;
+	max-width: 1320px !important;
+	color:white;
+	margin:-10rem;
+}
+
+.about .about-container .text {
+	width: 600px;
+	margin-top: 2rem;
+	max-width: 80%;
+	font-size: 1.5em;
+}
+
+.about .body {
+	width: 70%;
+	margin: auto;
+	max-width: 1320px;
+}
+
+.about .big {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.about .container {
+	margin: 0px;
+	padding: 0px;
+	max-width: none;
+}
+
+.about .intro-title {
+	max-width: 340px;
+	line-height: 1.5em;
+}
+
+.about .intro-title + p {
+	width: 80%;
+}
+
+.about .mt-4rem {
+	margin-top: 6rem;
+}
+
+.about .card-group {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.about .card-group .card {
+	margin-top: 2rem;
+}
+
+.about .card-group .card-title{
+	font-weight: 600;
+	margin-top: 1.5rem;
+}
+
+.about .info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.about .contact-title {
+	max-width: 310px;
+	line-height: 1.5em;
+}
+
+.about .contact {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.about .contact-form {
+	width: 50%;
+}
+
+.about .contact-info {
+	margin: 0 auto;
+	width: 260px;
+}
+
+.about .footer {
+	display: flex;
+	padding-top:2.5rem;
+	padding-bottom:2.5rem;
+	margin:3rem auto 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about .footer-logo {
+	padding:0;
+	color:black;
+	display:flex;
+	align-items:center;
+}
+
+.about .colored-button {
+	border-color:#0000cc;
+	color:#0000cc;
+}
+
+.about textarea {
+	height:120px !important;
+}
+
+@media (max-width:  990px) {
+
+	.about .navbar-collapse {
+		transition:all 0.5s;
+		background:rgba(255, 255, 255, 1);
+		padding:0 1rem 1rem 1rem;
+	}
+
+	.about .navigation a {
+		color:rgba(0, 0, 0, 0.8) !important;
+	}
+
+	.about .fa-moon {
+		color:rgba(0, 0, 0, 0.8) !important;
+		margin-left:10px;
+		margin-bottom:10px;
+	}
+}
+@media (max-width:  767px) {
+
+	.about .image {
+		height: 80vh;
+	}
+
+	.about .mask, .about .footer-contact, .about .footer-logo {
+		display: none;
+	}
+
+	.about .navigation, .about .footer {
+		width: 90%;
+	}
+
+	.about .about-container {
+		margin-top:10rem !important;
+	}
+
+	.about .about-container .text {
+		margin-top: 1rem;
+		font-size: 1.2em;
+	}
+
+	.about .body {
+		width: 85%;
+	}
+
+	.about .big {
+		font-size: 1.8em;
+	}
+
+	.about .mt-4rem {
+		margin-top:4rem;
+	}
+
+	.about .card-container {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	.about .card-group {
+		grid-template-columns: 1fr;
+	}
+
+	.about .card-group .card {
+		margin-top: 3rem;
+	}
+
+	.about .info {
+		grid-template-columns: 1fr;
+	}
+
+	.about .contact {
+		flex-direction: column;
+	}
+
+	.about .contact-form {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.about .contact-info {
+		margin: 3rem 0px;
+	}
+
+	.about .footer small {
+		margin:0 auto;
+	}
+}

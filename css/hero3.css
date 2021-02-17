@@ -1,0 +1,116 @@
+.hero3 .navigation {
+  width: 80%;
+  max-width: 1320px;
+  margin: auto;
+}
+
+.hero3 .navigation a {
+  font-weight: 600;
+}
+
+.hero3 .page-body {
+  display: flex;
+  margin: 0 auto;
+}
+
+.hero3 .page-info {
+  width: 40%;
+  z-index: 1;
+  margin: 8rem 0 0 10%;
+}
+
+.hero3 .big {
+  font-weight: 700;
+  max-width: 300px;
+}
+
+.hero3 .page-body .image-container {
+  position: relative;
+  width: 60%;
+}
+
+.hero3 .page-body .image1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 90vh;
+}
+
+.hero3 .page-body .image2 {
+  position: absolute;
+  top: 20em;
+  right: 55%;
+  width: 50%;
+}
+
+.hero3 .page-info .btn {
+  width: 40%;
+  max-width: 200px;
+}
+
+.hero3 .scroll-down {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero3 .mw-350 {
+  max-width: 350px;
+}
+
+.hero3 .colored-button {
+  background: #8080ff;
+  border-color: #8080ff;
+}
+
+@media (max-width: 720px) {
+  .hero3 .navigation {
+    margin-top: 0.5em;
+  }
+
+  .hero3 .page-body {
+    flex-direction: column;
+  }
+
+  .hero3 .page-info {
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero3 .page-body .image-container {
+    width: 90%;
+    margin-left: auto;
+  }
+
+  .hero3 .page-body .image1 {
+    width: 80%;
+  }
+
+  .hero3 .page-body .image2 {
+    top: 10em;
+  }
+
+  .hero3 .scroll-down {
+    display: none;
+  }
+}
+
+@media (min-width: 1441px) {
+  .hero3 .page-body {
+    width: 80%;
+    max-width: 1320px;
+  }
+  .hero3 .page-body .page-info {
+    margin-left: 0;
+  }
+  .hero3 .scroll-down {
+    display: none;
+  }
+}

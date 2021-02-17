@@ -1,0 +1,59 @@
+.hero4 .navigation {
+  width: 80%;
+  margin: 0 auto !important;
+  max-width: 1320px;
+}
+
+.hero4 .navigation a {
+  font-weight: 600;
+}
+
+.hero4 .nav-img {
+  display: none;
+}
+
+.hero4 .page-body {
+  width: 80%;
+  text-align: center;
+  margin: 10rem auto 0 auto;
+  max-width: 1320px;
+}
+
+.hero4 .page-body .btn {
+  width: 40%;
+  max-width: 200px;
+}
+
+.hero4 .page-body .image {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.hero4 .mw-550 {
+  max-width: 550px;
+}
+
+.hero4 .colored-button {
+  background: #8080ff;
+  border-color: #8080ff;
+}
+
+@media (max-width: 768px) {
+  .hero4 .navigation {
+    margin-top: 0.5em;
+  }
+
+  .hero4 .inner-logo {
+    display: none;
+  }
+
+  .hero4 .page-body {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .hero4 .nav-img {
+    display: block;
+  }
+}

@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css"/>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/cdb.css"/>
+    <script src="../contrast-bootstrap-pro/js/bootstrap.min.js"></script>
+    <script src="../contrast-bootstrap-pro/js/cdb.js"></script>
+    <script src="https://kit.fontawesome.com/9d1d9a82d2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="d-flex">
+        <div style="display: flex; height: 100vh">
+          <div class="sidebar" role="cdb-sidebar">
+            <div class="sidebar-container" style="height:100%; overflow-y:auto;">
+              <div class="sidebar-header align-items-center">
+                <a class="sidebar-toggler mb-1"><i class="fa fa-bars"></i></a>
+                <a class="sidebar-brand" href="/">Contrast</a>
+              </div>
+  
+              <div class="sidebar-nav">
+                <div class="sidenav">
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i class="fa fa-columns sidebar-icon"></i>
+                      <span>Dashboards</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseOne">
+                      <a href="./dashboard.html" class="sub-menu-item">Dashboard</a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="true"
+                      aria-controls="collapseThree"
+                    >
+                      <i class="fa fa-paper-plane sidebar-icon"></i>
+                      <span>Hero</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseThree">
+                      <a target="_blank" href="./hero4.html" class="sub-menu-item">Hero 4</a>
+                      <a target="_blank" href="./hero5.html" class="sub-menu-item">Hero 5</a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="true"
+                      aria-controls="collapseFour"
+                    >
+                      <i class="fa fa-sign-in sidebar-icon"></i>
+                      <span>Forms</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseFour">
+                      <a target="_blank" href="./create-account.html" class="sub-menu-item">Create Account</a>
+                      <a target="_blank" href="./forgot-password2.html" class="sub-menu-item">Forgot Password 2</a>
+                      <a target="_blank" href="./signin3.html" class="sub-menu-item">Sign In</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidenav">
+                  <a href="../table.html" class="sidebar-item">
+                    <i class="fa fa-table sidebar-icon"></i>
+                    <span>Tables</span>
+                  </a>
+                  <a href="./profile.html" class="sidebar-item">
+                    <i class="fa fa-user sidebar-icon"></i>
+                    <span>Profile</span>
+                  </a>
+                  <a target="_blank" href="./hero404.html" class="sidebar-item">
+                    <i class="fa fa-exclamation-circle sidebar-icon"></i>
+                    <span>404 Page</span>
+                  </a>
+                  <a target="_blank" href="./pricing.html" class="sidebar-item">
+                    <i class="fa fa-money sidebar-icon"></i>
+                    <span>Pricing</span>
+                  </a>
+                  <a target="_blank" href="./post.html" class="sidebar-item">
+                    <i class="fa fa-rss-square sidebar-icon"></i>
+                    <span>Post</span>
+                  </a>
+                </div>
+                <div class="sidenav">
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="true"
+                      aria-controls="collapseFive"
+                    >
+                      <i class="fas fa-cogs sidebar-icon"></i>
+                      <span>Components</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseFive">
+                      <a href="../templates/accordion.html" class="sub-menu-item">
+                        <i class="fa fa-th-large sidebar-icon"></i>
+                        <span class="text-capitalize">accordion</span>
+                      </a>
+                      <a href="../templates/animation.html" class="sub-menu-item">
+                        <i class="fa fa-radiation fa-spin sidebar-icon"></i>
+                        <span class="text-capitalize">animation</span>
+                      </a>
+                      <a href="../templates/box.html" class="sub-menu-item">
+                        <i class="fa fa-box sidebar-icon"></i>
+                        <span class="text-capitalize">box</span>
+                      </a>
+                      <a href="../templates/card.html" class="sub-menu-item">
+                        <i class="fa fa-id-card sidebar-icon"></i>
+                        <span class="text-capitalize">card</span>
+                      </a>
+                      <a href="../templates/carousel.html" class="sub-menu-item">
+                        <i class="fa fa-sliders-h sidebar-icon"></i>
+                        <span class="text-capitalize">carousel</span>
+                      </a>
+                      <a href="../templates/close-button.html" class="sub-menu-item">
+                        <i class="fa fa-close sidebar-icon"></i>
+                        <span class="text-capitalize">close-button</span>
+                      </a>
+                      <a href="../templates/collapse.html" class="sub-menu-item">
+                        <i class="fa fa-caret-down sidebar-icon"></i>
+                        <span class="text-capitalize">collapse</span>
+                      </a>
+                      <a href="../templates/dropdown.html" class="sub-menu-item">
+                        <i class="fa fa-caret-down sidebar-icon"></i>
+                        <span class="text-capitalize">dropdown</span>
+                      </a>
+                      <a href="../templates/iframe.html" class="sub-menu-item">
+                        <i class="fa fa-crop sidebar-icon"></i>
+                        <span class="text-capitalize">iframe</span>
+                      </a>
+                      <a href="../templates/list-group.html" class="sub-menu-item">
+                        <i class="fa fa-list sidebar-icon"></i>
+                        <span class="text-capitalize">list-group</span>
+                      </a>
+                      <a href="../templates/mask.html" class="sub-menu-item">
+                        <i class="fa fa-mask sidebar-icon"></i>
+                        <span class="text-capitalize">mask</span>
+                      </a>
+                      <a href="../templates/popovers.html" class="sub-menu-item">
+                        <i class="fa fa-dot-circle sidebar-icon"></i>
+                        <span class="text-capitalize">popovers</span>
+                      </a>
+                      <a href="../templates/rating.html" class="sub-menu-item">
+                        <i class="fa fa-star sidebar-icon"></i>
+                        <span class="text-capitalize">rating</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseEleven"
+                      aria-expanded="true"
+                      aria-controls="collapseEleven"
+                    >
+                      <i class="fas fa-flag-checkered sidebar-icon"></i>
+                      <span>Notification</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseEleven">
+                      <a href="../templates/alert.html" class="sub-menu-item">
+                        <i class="fa fa-user-clock sidebar-icon"></i>
+                        <span class="text-capitalize">alert</span>
+                      </a>
+                      <a href="../templates/modal.html" class="sub-menu-item">
+                        <i class="fa fa-medal sidebar-icon"></i>
+                        <span class="text-capitalize">modal</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseTwelve"
+                      aria-expanded="true"
+                      aria-controls="collapseTwelve"
+                    >
+                      <i class="fas fa-spinner sidebar-icon"></i>
+                      <span>Progress</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseTwelve">
+                      <a href="../templates/progress.html" class="sub-menu-item">
+                        <i class="fa fa-spinner sidebar-icon"></i>
+                        <span class="text-capitalize">progress</span>
+                      </a>
+                      <a href="../templates/slider.html" class="sub-menu-item">
+                        <i class="fa fa-sliders-h sidebar-icon"></i>
+                        <span class="text-capitalize">slider</span>
+                      </a>
+                      <a href="../templates/spinner.html" class="sub-menu-item">
+                        <i class="fa fa-spinner fa-spin sidebar-icon"></i>
+                        <span class="text-capitalize">spinner</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseNine"
+                      aria-expanded="true"
+                      aria-controls="collapseNine"
+                    >
+                      <i class="fas fa-mouse sidebar-icon"></i>
+                      <span>Buttons</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseNine">
+                      <a href="../templates/badge.html" class="sub-menu-item">
+                        <i class="fa fa-certificate sidebar-icon"></i>
+                        <span class="text-capitalize">badge</span>
+                      </a>
+                      <a href="../templates/button-group.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button-group</span>
+                      </a>
+                      <a href="../templates/button-toolbar.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button-toolbar</span>
+                      </a>
+                      <a href="../templates/button.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseTen"
+                      aria-expanded="true"
+                      aria-controls="collapseTen"
+                    >
+                      <i class="fa fa-sign-in sidebar-icon"></i>
+                      <span>Forms</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseTen">
+                      <a href="../templates/forms.html" class="sub-menu-item">
+                        <i class="fa fa-sign-in sidebar-icon"></i>
+                        <span class="text-capitalize">forms</span>
+                      </a>
+                      <a href="../templates/input.html" class="sub-menu-item">
+                        <i class="fa fa-keyboard sidebar-icon"></i>
+                        <span class="text-capitalize">input</span>
+                      </a>
+                      <a href="../templates/inputgroup.html" class="sub-menu-item">
+                        <i class="fa fa-keyboard sidebar-icon"></i>
+                        <span class="text-capitalize">inputgroup</span>
+                      </a>
+                      <a href="../templates/select.html" class="sub-menu-item">
+                        <i class="fa fa-mouse-pointer sidebar-icon"></i>
+                        <span class="text-capitalize">select</span>
+                      </a>
+                      <a href="../templates/switch.html" class="sub-menu-item">
+                        <i class="fa fa-toggle-on sidebar-icon"></i>
+                        <span class="text-capitalize">switch</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseSix"
+                      aria-expanded="true"
+                      aria-controls="collapseSix"
+                    >
+                      <i class="fas fa-directions sidebar-icon"></i>
+                      <span>Navigation</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseSix">
+                      <a href="../templates/breadcrumb.html" class="sub-menu-item">
+                        <i class="fa fa-route sidebar-icon"></i>
+                        <span class="text-capitalize">breadcrumb</span>
+                      </a>
+                      <a href="../templates/footer.html" class="sub-menu-item">
+                        <i class="fa fa-shoe-prints sidebar-icon"></i>
+                        <span class="text-capitalize">footers</span>
+                      </a>
+                      <a href="../templates/navbar.html" class="sub-menu-item">
+                        <i class="fa fa-directions sidebar-icon"></i>
+                        <span class="text-capitalize">navbar</span>
+                      </a>
+                      <a href="../templates/pagination.html" class="sub-menu-item">
+                        <i class="fa fa-map sidebar-icon"></i>
+                        <span class="text-capitalize">pagination</span>
+                      </a>
+                      <a href="../templates/sidebar.html" class="sub-menu-item">
+                        <i class="fa fa-columns sidebar-icon"></i>
+                        <span class="text-capitalize">sidebar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseSeven"
+                      aria-expanded="true"
+                      aria-controls="collapseSeven"
+                    >
+                      <i class="fas fa-table sidebar-icon"></i>
+                      <span>Table</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseSeven">
+                      <a href="../templates/chart.html" class="sub-menu-item">
+                        <i class="fa fa-chart-bar sidebar-icon"></i>
+                        <span class="text-capitalize">chart</span>
+                      </a>
+                      <a href="../templates/datatable.html" class="sub-menu-item">
+                        <i class="fa fa-table sidebar-icon"></i>
+                        <span class="text-capitalize">datatables</span>
+                      </a>
+                      <a href="../templates/table.html" class="sub-menu-item">
+                        <i class="fa fa-table sidebar-icon"></i>
+                        <span class="text-capitalize">table</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="sidebar-footer">Sidebar Footer</div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: column;
+            height: 100vh;
+            overflow-y: hidden;
+          "
+        >
+          <header class="db-header">
+            <nav class="d-flex justify-content-between align-items-center px-3 py-2">
+              <div class="cdb-form mb-0">
+                <input type="search" placeholder="Search" class="input-nav"/>
+              </div>
+              <div class="ml-auto d-flex align-items-center">
+                <div class="d-flex align-items-center mr-3">
+                  <i class="fas fa-bell mr-3 fa-lg"></i>
+                  <i class="fas fa-comment-alt fa-lg"></i>
+                </div>
+                <img class="pane-sm" src="../img/pane/pane4.png" />
+              </div>
+            </nav>
+          </header>
+
+          <div style="height: 100%">
+            <div
+              class="scroll-container"
+              style="height: calc(100% - 64px); overflow-y: scroll"
+            >
+              <div class="card-section d-flex">
+                <div class="cards-container">
+                  <div class="card-bg w-100 border d-flex flex-column">
+                    <div class="p-4 d-flex flex-column h-100">
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <h4 class="m-0 h5 font-weight-bold text-dark">Sales</h4>
+                        <div class="py-1 px-2 bg-grey rounded-circle">
+                          <i class="fa fa-suitcase"></i>
+                        </div>
+                      </div>
+                      <h4 class="my-4 text-right text-dark h2 font-weight-bold">
+                        $30,000
+                      </h4>
+                      <div>
+                        <div class="progress-text"></div>
+                        <div class="progress" style="height: 8px">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="65"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 65%; height: 8px"
+                          ></div>
+                        </div>
+                      </div>
+                      <p class="mt-2 text-success small">
+                        <i class="fa fa-angle-up p-0"></i> 27.4%<span
+                          class="ml-2 font-weight-bold text-muted"
+                          style="font-size: 0.95em"
+                          >Since last month</span
+                        >
+                      </p>
+                      <p
+                        class="c-p mb-0 text-dark font-weight-bold text-right mt-auto"
+                      >
+                        More Details<i class="fa fa-arrow-right ml-1"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-bg w-100 border d-flex flex-column">
+                    <div class="p-4 d-flex flex-column h-100">
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <h4 class="m-0 h5 font-weight-bold text-dark">
+                          Traffic by Source
+                        </h4>
+                        <div class="px-2 py-1 bg-grey rounded-circle">
+                          <i class="fa fa-pie-chart"></i>
+                        </div>
+                      </div>
+                      <div class="mt-3 d-flex justify-content-between">
+                        <div
+                          class="container p-0"
+                          style="width: 250px; height: 150px; margin: 0px -4rem"
+                        >
+                          <canvas id="chart1"></canvas>
+                        </div>
+                        <div class="text-right w-25">
+                          <p class="m-0">Google</p>
+                          <p class="text-success small">10.57</p>
+                          <div>
+                            <div
+                              class="d-flex align-items-center justify-content-between text-success"
+                            >
+                              <span
+                                style="
+                                  font-size: 3em;
+                                  margin: -2rem 0px -1.5rem;
+                                "
+                                >•</span
+                              ><span class="small">Google</span>
+                            </div>
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                              style="color: rgb(155, 81, 224)"
+                            >
+                              <span
+                                style="
+                                  font-size: 3em;
+                                  margin: -2rem 0px -1.5rem;
+                                "
+                                >•</span
+                              ><span class="small">Yahoo</span>
+                            </div>
+                            <div
+                              class="d-flex align-items-center justify-content-between text-warning"
+                            >
+                              <span
+                                style="
+                                  font-size: 3em;
+                                  margin: -2rem 0px -1.5rem;
+                                "
+                                >•</span
+                              ><span class="small">Bing</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p
+                        class="c-p text-dark mb-0 font-weight-bold text-right mt-auto"
+                      >
+                        More Details<i class="fa fa-arrow-right ml-1"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-bg w-100 border d-flex flex-column p-4"
+                    style="grid-row: span 2 / auto"
+                  >
+                    <div class="d-flex">
+                      <h6 class="h5 font-weight-bold text-dark">
+                        Team Members
+                      </h6>
+                      <div class="ml-auto rounded-circle bg-grey py-1 px-2">
+                        <i class="fa fa-user"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane1.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane2.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane3.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane4.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane5.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane1.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane2.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0" style="font-size: 0.75em">Online</p>
+                      </div>
+                      <button
+                        class="btn btn-flat btn-dark border-0 ml-auto px-2 py-1 my-2"
+                      >
+                        <span class="msg-rem">Send</span> Message
+                      </button>
+                    </div>
+                    <p
+                      class="c-p text-dark mb-0 font-weight-bold text-right mt-auto"
+                    >
+                      More Details<i class="fa fa-arrow-right ml-1"></i>
+                    </p>
+                  </div>
+                  <div
+                    class="card-bg w-100 d-flex flex-column border d-flex flex-column"
+                    style="grid-row: span 2 / auto"
+                  >
+                    <div class="p-4 d-flex flex-column h-100">
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <h4 class="m-0 h5 font-weight-bold text-dark">
+                          Total Orders
+                        </h4>
+                        <div class="px-2 py-1 bg-grey rounded-circle">
+                          <i class="fa fa-shopping-bag"></i>
+                        </div>
+                      </div>
+                      <div
+                        class="mt-5 d-flex align-items-center justify-content-between"
+                      >
+                        <div>
+                          <h4 class="m-0 h1 font-weight-bold text-dark">452</h4>
+                          <p class="text-success small">
+                            <i class="fa fa-angle-up p-0"></i> 18.52%
+                          </p>
+                        </div>
+                        <div
+                          class="text-right d-flex flex-column justify-content-between"
+                        >
+                          <div
+                            class="d-flex align-items-center justify-content-between text-primary"
+                          >
+                            <span
+                              style="font-size: 3em; margin: -2rem 0px -1.5rem"
+                              >•</span
+                            ><span class="small">August</span>
+                          </div>
+                          <div
+                            class="d-flex align-items-center justify-content-between text-warning"
+                          >
+                            <span
+                              style="font-size: 3em; margin: -2rem 0px -1.5rem"
+                              >•</span
+                            ><span class="small ml-2">September</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p-0 mt-auto" style="height: 250px">
+                        <canvas id="chart2"></canvas>
+                      </div>
+                      <p
+                        class="c-p text-dark font-weight-bold text-right mt-3 mb-0"
+                      >
+                        More Details<i class="fa fa-arrow-right ml-1"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-bg w-100 border d-flex flex-column p-4">
+                    <div class="d-flex">
+                      <h6 class="h5 font-weight-bold text-dark">Messages</h6>
+                      <div class="ml-auto rounded-circle bg-grey px-2 py-1">
+                        <i class="fa fa-comment"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane3.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0 small">Hey, how are you.</p>
+                      </div>
+                      <p
+                        class="px-2 d-flex align-items-center text-muted"
+                        style="font-size: 0.5em"
+                      >
+                        <i
+                          class="fa fa-circle mr-1"
+                          style="font-size: 0.8em"
+                        ></i
+                        ><span style="font-size: 1.4em">Online</span>
+                      </p>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane4.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0 small">Hey, how are you.</p>
+                      </div>
+                      <p
+                        class="px-2 d-flex align-items-center text-muted"
+                        style="font-size: 0.5em"
+                      >
+                        <i
+                          class="fa fa-circle mr-1"
+                          style="font-size: 0.8em"
+                        ></i
+                        ><span style="font-size: 1.4em">Online</span>
+                      </p>
+                    </div>
+                    <div class="d-flex mt-4">
+                      <img
+                        alt="panelImage"
+                        src="../img/pane/pane5.png"
+                        class="pane-image"
+                      />
+                      <div>
+                        <h6 class="mb-0" style="font-weight: 600">Mezue</h6>
+                        <p class="m-0 small">Hey, how are you.</p>
+                      </div>
+                      <p
+                        class="px-2 d-flex align-items-center text-muted"
+                        style="font-size: 0.5em"
+                      >
+                        <i
+                          class="fa fa-circle mr-1"
+                          style="font-size: 0.8em"
+                        ></i
+                        ><span style="font-size: 1.4em">Online</span>
+                      </p>
+                    </div>
+                    <p
+                      class="c-p text-dark font-weight-bold text-right mt-auto mb-0"
+                    >
+                      More Details<i class="fa fa-arrow-right ml-1"></i>
+                    </p>
+                  </div>
+                  <div
+                    class="card-bg w-100 d-flex flex-column wide border d-flex flex-column"
+                  >
+                    <div class="d-flex flex-column p-0 h-100">
+                      <div
+                        class="mx-4 mt-3 d-flex justify-content-between align-items-center"
+                      >
+                        <h4 class="font-weight-bold text-dark h5">
+                          Page Visits
+                        </h4>
+                        <div class="p-1 bg-grey rounded-circle">
+                          <i class="fa fa-sticky-note"></i>
+                        </div>
+                      </div>
+                      <div class="table-responsive">
+                        <table class="table table-borderless table-striped">
+                          <thead class="thead-light">
+                            <tr>
+                              <th>Page Name</th>
+                              <th class="table-rem">Views</th>
+                              <th class="table-rem">Value</th>
+                              <th>Bounce Rate</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>/demo/admin/index.html</td>
+                              <td class="table-rem">3,689</td>
+                              <td class="table-rem">$10</td>
+                              <td class="text-success text-center">
+                                <i class="fa fa-arrow-up"></i> 20%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>/demo/admin/index.html</td>
+                              <td class="table-rem">3,689</td>
+                              <td class="table-rem">$10</td>
+                              <td class="text-success text-center">
+                                <i class="fa fa-arrow-up"></i> 20%
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>/demo/admin/index.html</td>
+                              <td class="table-rem">3,689</td>
+                              <td class="table-rem">$10</td>
+                              <td class="text-success text-center">
+                                <i class="fa fa-arrow-up"></i> 20%
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p
+                        class="c-p text-dark font-weight-bold text-right mt-auto mr-3"
+                      >
+                        See More<i class="fa fa-arrow-right ml-1"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <footer class="page-footer">
+                <div class="footer">
+                  <a class="nav-link footer-link" href="/"
+                    ><img
+                      alt="logo"
+                      src="../img/logo.png"
+                      width="25px"
+                    /><span class="ml-4 mb-0 h5 font-weight-bold"
+                      >Devwares</span
+                    ></a
+                  ><small>© Devwares, 2020. All rights reserved.</small>
+                  <div class="footer-rem">
+                    <button class="btn btn-flat btn-dark p-1 border-0">
+                      <i class="fa fa-facebook"></i></button
+                    ><button class="btn btn-flat btn-dark p-1 border-0">
+                      <i class="fa fa-twitter"></i></button
+                    ><button class="btn btn-flat btn-dark p-1 border-0">
+                      <i class="fa fa-instagram"></i>
+                    </button>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script>
+      const chart1 = document.getElementById('chart1').getContext('2d');
+
+      const myChart1 = new Chart(chart1, {
+        type: 'pie',
+        data: {
+          labels: ['Eating', 'Drinking', 'Sleeping'],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: ['#F2C94C', '#2F80ED', '#9B51E0'],
+              borderWidth: 0,
+              data: [9, 22, 7],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          legend: { display: false },
+        },
+      });
+      const myChart2 = new Chart(chart2, {
+        type: 'bar',
+        data: {
+          labels: [
+            'Eating',
+            'Drinking',
+            'Sleeping',
+            'Designing',
+            'Coding',
+            'Cycling',
+            'Running',
+          ],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: 'rgba(255, 153, 51, 0.8)',
+              borderColor: 'rgb(102, 51, 0)',
+              data: [65, 59, 75, 81, 56, 55, 40],
+            },
+            {
+              label: 'My Second dataset',
+              backgroundColor: '#2F80ED',
+              borderColor: 'rgb(0, 41, 102)',
+              data: [38, 48, 60, 79, 96, 47, 80],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          legend: { display: false },
+          scales: {
+            xAxes: [
+              {
+                gridLines: {
+                  display: false,
+                },
+                ticks: {
+                  display: false,
+                },
+              },
+            ],
+            yAxes: [
+              {
+                gridLines: {
+                  display: false,
+                },
+                ticks: {
+                  display: false,
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+    </script>
+    <script>
+      const sidebar = document.querySelector('.sidebar');
+      new CDB.Sidebar(sidebar);
+    </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+  </body>
+</html>

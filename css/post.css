@@ -1,0 +1,220 @@
+.post .navigation {
+	width:80%;
+	margin:0 auto;
+	max-width:1320px;
+}
+
+.post .navigation a {
+	font-weight:600;
+}
+
+.post .btn {
+	width:initial;
+}
+
+.post .page-body {
+	width:80%;
+	margin:0 auto;
+	max-width:1320px;
+}
+
+.post .page-title {
+	font-size:2.5em;
+	font-weight:700;
+	margin-top:3rem;
+}
+
+.post .fw-600 {
+	font-weight:600;
+}
+
+.post .section1 {
+	display:flex;
+	margin-top:2em;
+}
+
+.post .section1 .main {
+	flex:7;
+	margin-top:4em;
+	margin-right:5%;
+}
+
+.post .main .demo {
+	display:flex;
+	margin:2em 0px;
+}
+
+.post .demo span {
+	font-size:10em;
+	font-weight:600;
+	margin-top:-3.5rem;
+	margin-bottom:-8rem;
+}
+
+.post .demo p {
+	color:#595959;
+	margin-left:2rem;
+	font-size:0.9em;
+}
+
+.post .section1 .aside {
+	flex:3;
+	overflow:hidden;
+}
+
+.post .aside .aside-title {
+	text-align:center;
+	margin-bottom:3rem;
+}
+
+.post .aside .aside-card {
+	color:#595959;
+	border:none;
+	max-width:260px;
+	margin-left: auto;
+	margin-bottom: 1.5rem;
+}
+
+.post .c-p {
+	cursor:pointer;
+}
+
+.post .section2 {
+	margin-top:2em;
+	width:500px;
+}
+
+.post .section2 .write-comment {
+	justify-content:space-between;
+	width:100%;
+	margin-bottom:0.8em;
+}
+
+.post .write-comment .cdb-form {
+	padding:0 0.5rem;
+	width:70%;
+}
+
+.post .write-comment .btn{
+	width:20%;
+}
+
+.post .section2 .pane {
+	align-items:start;
+	color:#595959;
+}
+
+.post .pane .fw-600{
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	font-size:1.1em;
+}
+
+.post .pane img{
+	min-width:3rem;
+	height:3rem;
+}
+
+.post .pane .comment-text{
+	font-size:0.9rem;
+}
+
+.post .pane div{
+	margin-left:1.5rem;
+}
+
+.post .footer {
+	display: flex;
+	width:80%;
+	max-width:1320px;
+	padding-top:1.5rem;
+	padding-bottom:1.5rem;
+	margin:3rem auto 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.post .footer-logo {
+	padding:0;
+	color:black;
+	display:flex;
+	align-items:center;
+}
+
+@media (max-width:720px) {
+
+	.post .navigation {
+		width:90%;
+		margin-top:0.5em;
+	}
+
+	.post .page-body {
+		width:90%;
+	}
+
+	.post .page-title {
+		font-size:2em;
+		margin-top:2em;
+	}
+
+	.post .section1 {
+		flex-direction:column;
+	}
+
+	.post .section1 .main{
+		flex:initial;
+		margin-right:0;
+	}
+
+	.post .demo span {
+		font-size:6em;
+		margin-top:-2rem;
+	}
+
+	.post .section1 .aside{
+		flex:initial;
+		display:flex;
+		width:90vw;
+		overflow-x:scroll;
+	}
+
+	.post .aside .aside-title {
+		display:none;
+	}
+
+	.post .aside .aside-card{
+		min-width:200px;
+		margin-left:0px;
+		margin-right:10px;
+		margin-bottom: 0px;
+	}
+
+	.post .section2 {
+		width:100%;
+	}
+
+	.post .section2 .write-comment {
+		flex-wrap:wrap;
+	}
+
+	.post .write-comment .cdb-form {
+		padding:0;
+		width:80%;
+	}
+
+	.post .write-comment .btn{
+		padding:0.2em 1em;
+		margin-left:20%;
+		margin-bottom:1em;
+		margin-top:0.5em;
+	}
+
+	.post .footer-contact, .post .footer-logo {
+		display: none;
+	}
+
+	.post .footer small {
+		margin:0 auto;
+	}
+
+}

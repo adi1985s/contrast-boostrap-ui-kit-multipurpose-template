@@ -1,0 +1,216 @@
+.prodashboard {
+  background:#fafafa;
+}
+
+.prodashboard .cards-container {
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1440px;
+  background: #fafafa;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+}
+
+.prodashboard .scroll-container {
+  padding: 0 1.5rem;
+  height: calc(100% - 64px);
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.prodashboard .card-bg {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 1px solid #f2f2f2;
+}
+
+.prodashboard .gc-2 {
+  grid-column: span 2;
+}
+
+.prodashboard .gr-2 {
+  grid-row: span 2;
+}
+
+.prodashboard .c-p {
+  cursor: pointer;
+}
+
+.prodashboard .card2-pos {
+  position: absolute;
+  left: 60px;
+  bottom: 30px;
+}
+
+.prodashboard .fs {
+  font-size: 2.5rem;
+}
+
+.prodashboard .pane-image {
+  width: 3em;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.prodashboard .badge-container {
+  display: flex;
+  margin: 3rem;
+}
+
+.prodashboard .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prodashboard .footer-link {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: #333;
+}
+
+.prodashboard .sidebar-container {
+  display: flex;
+  height: 100vh;
+}
+.prodashboard .main-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.prodashboard .fw-600 {
+  font-weight:600;
+}
+.prodashboard .height-100 {
+  height:100%;
+}
+.prodashboard .title-icon {
+  width: 30px;
+  height: 30px;
+  background: #e0e0e0;
+}
+.prodashboard .floating-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.prodashboard .card4-badge {
+  width: 120px;
+  height: 100px;
+}
+.prodashboard .fs-sm {
+  font-size: 0.7em;
+}
+.prodashboard .chart-1 {
+  margin: auto 0 -0.77rem -0.75rem;
+  height: 200px;
+}
+.prodashboard .chart-2 {
+  margin: auto 0 -0.77rem -0.75rem;
+  height: 300px;
+}
+.prodashboard .chart-3 {
+  height:400px;
+}
+
+@media (max-width: 1320px) {
+  .prodashboard .cards-container {
+    width: 100%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .prodashboard .gc-2 {
+    grid-column: span 1;
+  }
+  .prodashboard .gr-2 {
+    grid-row: span 1;
+  }
+  .prodashboard .badge-container {
+    flex-direction: column;
+  }
+  .prodashboard .batch2 {
+    margin-top: 1rem;
+  }
+  .prodashboard .footer-rem {
+    display: none;
+  }
+  .prodashboard .footer small {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .prodashboard .scroll-container {
+    padding: 0 0.5rem;
+  }
+  .prodashboard .cards-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0.5rem auto;
+    grid-template-columns: 1fr;
+    font-size: 0.85rem;
+  }
+  .prodashboard .card2-pos {
+    left: 20px;
+    bottom: 20px;
+  }
+  .prodashboard .pane-image {
+    width: 2.2rem;
+    margin-right: 0.5rem;
+  }
+  .prodashboard .fs {
+    font-size: 2rem;
+  }
+  .prodashboard .panel-card {
+    padding: 10px;
+  }
+  .prodashboard .msg-rem {
+    display: none;
+  }
+  .prodashboard .badge-container {
+    margin: 1.5rem 1rem;
+  }
+  .prodashboard .footer-link {
+    display: none !important;
+  }
+  .prodashboard .footer {
+    width: 90%;
+    text-align: center !important;
+  }
+}
+
+.prodashboard .db-header nav {
+  background:white;
+  color:black;
+  height:64px;
+}
+
+.prodashboard .db-header .input-nav {
+  padding:7px;
+  margin-left:5rem !important;
+  width:30rem !important;
+}
+
+.prodashboard .db-header .space {
+  margin-right:1rem;
+}
+
+@media(max-width:1320px) {
+  .prodashboard .db-header .input-nav {
+    width:15rem !important;
+  }
+}
+
+@media(max-width:920px) {
+  .prodashboard .db-header .input-nav, .db-header .space {
+    display:none;
+  }
+}

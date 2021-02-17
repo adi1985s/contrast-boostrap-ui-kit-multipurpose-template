@@ -1,0 +1,304 @@
+.landing .page {
+	width:80%;
+	margin:0 auto;
+	max-width:1320px;
+}
+
+.landing .page-bg {
+	 width:100%;
+	 max-height:700px;
+}
+
+.landing-bg {
+	position:relative;
+}
+
+.landing .page {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+
+.landing .page-header {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	z-index:2;
+}
+
+.landing .navigation a {
+	font-weight:600;
+	color:white;
+}
+
+.landing .page-head {
+	display:flex;
+	align-items:center;
+	text-align:right;
+	color:white;
+	margin:10rem auto 0 auto;
+}
+
+.landing .page-head .image{
+	width:50%;
+	max-width:550px;
+}
+
+.landing .page-info {
+	width:50%;
+	text-align:right;
+	margin:0 0 0 auto;
+}
+
+.landing .page-title {
+	font-size:3em;
+	font-weight:700;
+	margin-left:auto;
+	max-width:350px;
+}
+
+.landing .page-info .btn {
+	max-width:200px;
+}
+
+.landing .features {
+	text-align:center;
+	margin-top:4rem;
+	display:flex;
+	justify-content:space-between;
+}
+
+.landing .feature {
+	width:30%;
+}
+
+.landing .feature .fw-600 {
+	font-size:1.2em;
+	margin-top:2rem;
+}
+
+.landing .center {
+	text-align:center;
+}
+
+.landing .fw-600 {
+	font-weight:600;
+}
+
+.landing .container {
+	margin:0px;
+	padding:0px;
+	max-width:none;
+}
+
+.landing .section-info {
+	width:80%;
+	margin:5rem auto 0 auto;
+}
+
+.landing .section-title {
+	font-size:2rem;
+	font-weight:600;
+	margin:0px auto 1rem auto;
+}
+
+.landing .section-text {
+	margin:1em auto;
+	max-width:550px;
+}
+
+.landing .pricing-container {
+	padding:2.5rem 3rem;
+	margin:0px 0px 2rem 0px;
+	text-align:left;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.landing .price-info {
+	width:30%;
+}
+
+.landing .list {
+	list-style:none;
+	width:18%;
+	padding:0;
+	margin:0px;
+}
+
+.landing .btn-container {
+	width:15%;
+}
+
+.landing .view-details {
+	display:none;
+}
+
+.landing .contact-title {
+	max-width: 300px;
+	line-height: 1.5em;
+}
+
+.landing .contact {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.landing .contact-form {
+	width: 50%;
+}
+
+.landing .contact-info {
+	margin: 0 auto;
+	width: 260px;
+}
+
+.landing .footer {
+	display: flex;
+	padding-top:2.5rem;
+	padding-bottom:2.5rem;
+	margin:3rem auto 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.landing .footer-logo {
+	padding:0;
+	color:black;
+	display:flex;
+	align-items:center;
+}
+
+.landing .colored-button {
+	color:white;
+ 	background: #8080ff;
+ 	border-color: #8080ff;
+}
+
+.landing .h-120 {
+	height:120px;
+}
+
+@media (max-width: 990px){
+
+	.landing .navbar-collapse{
+		background:#333;
+		transition:all 0.5s;
+	}
+
+	.landing .collapse .border-white {
+		margin:0 0 1rem 0 !important;
+	}
+}
+
+
+@media (max-width: 769px){
+
+	.landing .page-bg {
+		height:80vh;
+		margin-bottom:10rem;
+	}
+
+	.landing .page {
+		width:90%;
+	}
+
+	.landing .navigation {
+		margin-top:0.5em;
+	}
+
+	.landing .page-head {
+		margin-top:7rem;
+		flex-direction:column;
+	}
+
+	.landing .page-head .image {
+		order:2;
+		width:100%;
+	}
+
+	.landing .page-info {
+		order:1;
+		margin-bottom:2rem;
+		width:100%;
+	}
+
+	.landing .page-title {
+		font-size:2.2em;
+	}
+
+	.landing .section-title {
+		font-size:2rem;
+	}
+
+	.landing .features {
+		flex-direction:column;
+	}
+
+	.landing .feature {
+		width:100%;
+		margin-bottom:2rem;
+	}
+
+	.landing .section2 .section-info {
+		margin-top:2rem;
+	}
+
+	.landing .pricing-container{
+		flex-direction:column;
+		padding:1.5rem 2rem;
+	}
+
+	.landing .price-info{
+		width:100%;
+	}
+
+	.landing .list{
+		display:none;
+	}
+
+	.landing .btn-container{
+		margin-top:2rem;
+		width:75%;
+	}
+
+	.landing .view-details{
+		display:block;
+		margin-top:1rem;
+		color:#595959;
+	}
+
+	.landing .contact {
+		flex-direction: column;
+		margin-bottom:0px;
+	}
+
+	.landing .contact-form {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.landing .contact-info {
+		margin: 3rem 0px;
+	}
+
+	.landing .contact-info .h2 {
+		font-size:1.5rem;
+		margin-bottom:1.5rem !important;
+	}
+
+	.landing .footer {
+		margin-top:0;
+	}
+
+	.landing .footer-contact, .landing .footer-logo {
+		display: none;
+	}
+
+	.landing .footer small {
+		margin:0 auto;
+	}
+}

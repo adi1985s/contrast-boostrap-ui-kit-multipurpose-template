@@ -1,0 +1,291 @@
+.prodashboard3 .cards-container {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1320px;
+  margin: 20px auto;
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-rows: 1fr;
+}
+
+.prodashboard3 .scroll-container {
+  padding: 0 1.5rem;
+  height: calc(100% - 64px);
+  overflow-y: scroll;
+}
+
+.prodashboard3 .scroll-container * {
+  transition: all 0.3s;
+}
+
+.prodashboard3 .card-container1 {
+  width: 100%;
+}
+
+.prodashboard3 .card1-text {
+  font-size: 2.2rem;
+}
+
+.prodashboard3 .card1 {
+  height: 15em;
+}
+
+.prodashboard3 .card-container2 {
+  width: 100%;
+}
+
+.prodashboard3 .card-boundary {
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.prodashboard3 .progress-container2 {
+  display: flex;
+  padding: 0 1.5rem;
+  margin-top:1.8rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.prodashboard3 .progress-container2 > * {
+  margin: 10px;
+}
+
+.prodashboard3 .circularProgress {
+  width: 120px !important;
+  height: 120px !important;
+  font-weight: bold;
+}
+
+.prodashboard3 .circularProgress2 {
+  width: 130px !important;
+  height: 130px !important;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.prodashboard3 .progress-label {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.prodashboard3 .card5 {
+  margin-top: 1rem;
+}
+
+.prodashboard3 .line-progress {
+  margin-top: 0.5rem;
+}
+
+.prodashboard3 .line-progress .small {
+  width: 8%;
+}
+
+.prodashboard3 .ticks {
+  margin: 1.5rem 1rem 1rem 8%;
+}
+
+.prodashboard3 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prodashboard3 .footer-link {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: #343a40;
+}
+
+.prodashboard3 .sidebar-container {
+  display: flex;
+  height: 100vh;
+}
+.prodashboard3 .main-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.prodashboard3 .fw-600 {
+  font-weight:600;
+}
+.prodashboard3 .height-100 {
+  height:100%;
+}
+.prodashboard3 .fs-lg {
+  font-size: 20px;
+}
+.prodashboard3 .chart-1 {
+  margin: -1.5rem 0px -0.77rem -0.75rem;
+  height: 200px;
+}
+.prodashboard3 .height-50 {
+  height: 50px;
+}
+.prodashboard3 .style-44 {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;                    
+}
+.prodashboard3 .progress-dot {
+  font-size: 3.5em;
+  margin: -2rem 0px -1.5rem;
+}
+.prodashboard3 {
+  background: #fafafa;
+}
+.prodashboard3 .pane-md{
+  min-width: 2rem;
+  height: auto;
+}
+.prodashboard3 .pl-color{
+  color: rgb(155, 81, 224);
+}
+                      
+
+@media (max-width: 1320px) {
+  .prodashboard3 .cards-container {
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .prodashboard3 .card1-text {
+    font-size: 2rem;
+  }
+  .prodashboard3 .card-boundary {
+    box-shadow: none;
+  }
+  .prodashboard3 .progress-container2 {
+    padding: 0;
+  }
+  .prodashboard3 .circularProgress {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .prodashboard3 .circularProgress2 {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0.5rem;
+  }
+  .prodashboard3 .progress-label {
+    margin-right: 0rem;
+  }
+  .prodashboard3 .progress-label .small {
+    margin-left: 0rem;
+  }
+  .prodashboard3 .line-progress .small {
+    width: 40%;
+  }
+  .prodashboard3 .ticks {
+    margin: 0.25rem 1rem 1rem 30%;
+  }
+  .prodashboard3 .rem {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .prodashboard3 .scroll-container {
+    padding: 0 0.5rem;
+  }
+  .prodashboard3 .cards-container {
+    grid-template-columns: repeat(1, minmax(200px, 100%));
+    margin: 10px auto;
+    max-width: 500px;
+  }
+  .prodashboard3 .card-boundary {
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+  .prodashboard3 .card-container1 {
+    margin: 0 auto;
+  }
+  .prodashboard3 .card-container2 {
+    margin: 0 auto;
+    min-width: initial;
+  }
+  .prodashboard3 .card5 {
+    margin-top: 10px;
+  }
+  .prodashboard3 .card1-text {
+    font-size: 1.5rem;
+    margin-left: auto;
+  }
+  .prodashboard3 .progress-container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .prodashboard3 .circularProgress {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .prodashboard3 .circularProgress2 {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .prodashboard3 .progress-label {
+    margin-right: 0.8rem;
+  }
+  .prodashboard3 .line-progress {
+    margin-top: 0.5rem;
+  }
+  .prodashboard3 .line-progress .small {
+    width: initial;
+  }
+  .prodashboard3 .footer-rem,
+  .prodashboard3 .footer-link {
+    display: none !important;
+  }
+  .prodashboard3 .footer {
+    width: 90%;
+  }
+  .prodashboard3 .footer small {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .prodashboard3 .card1 {
+    height: initial;
+    min-height: 15rem;
+  }
+  .prodashboard3 .card1-text {
+    margin-top: 4rem;
+  }
+  .prodashboard3 .card-body {
+    padding: 10px;
+  }
+}
+
+.prodashboard3 .db-header nav {
+  background:white;
+  color:black;
+  height:64px;
+}
+
+.prodashboard3 .db-header .input-nav {
+  padding:7px;
+  margin-left:5rem !important;
+  width:30rem !important;
+}
+
+.prodashboard3 .db-header .space {
+  margin-right:1rem;
+}
+
+@media(max-width:1320px) {
+  .prodashboard3 .db-header .input-nav {
+    width:15rem !important;
+  }
+}
+
+@media(max-width:920px) {
+  .prodashboard3 .db-header .input-nav, .db-header .space {
+    display:none;
+  }
+}

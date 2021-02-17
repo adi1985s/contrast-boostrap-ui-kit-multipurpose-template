@@ -1,0 +1,90 @@
+.hero2 .image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+}
+
+.hero2 .scroll-down {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero2 .page-body {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.hero2 .page-info {
+  width: 45%;
+  color: white;
+  margin: 8rem 2.5rem 0 auto;
+}
+
+.hero2 .page-info .btn {
+  width: 40%;
+  max-width: 200px;
+}
+
+.hero2 .navigation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.hero2 .navigation a {
+  font-weight: 600;
+  color: #fff !important;
+  text-decoration: none;
+}
+.hero2 .navigation a:hover {
+  color: #000 !important;
+}
+
+.hero2 .mw-350 {
+  max-width: 350px;
+}
+
+.hero2 .mw-500 {
+  max-width: 500px;
+}
+
+.hero2 .colored-button {
+  background: #8080ff;
+  border-color: #8080ff;
+}
+
+@media (max-width: 720px) {
+  .hero2 .navigation {
+    margin-top: 0.5em;
+  }
+
+  .hero2 .navigation .collapse {
+    transition: all 0.5s;
+    background: rgba(0, 0, 0, 0.95);
+  }
+
+  .hero2 .page-info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 2000px) {
+  .hero2 .scroll-down {
+    display: none;
+  }
+}

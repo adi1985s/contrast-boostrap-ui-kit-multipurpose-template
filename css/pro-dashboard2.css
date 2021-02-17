@@ -1,0 +1,231 @@
+.prodashboard2 .cards-container {
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1440px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+}
+
+.prodashboard2 .scroll-container {
+  padding: 0 1.5rem;
+  background: #4f4f4f;
+  height: calc(100% - 64px);
+  overflow-y: scroll;
+}
+
+.prodashboard2 .card-bg {
+  border: 1px solid #333;
+  background: #333;
+  color: #fff;
+}
+
+.prodashboard2 .gc-2 {
+  grid-column: span 2;
+}
+
+.prodashboard2 .gr-2 {
+  grid-row: span 2;
+}
+
+.prodashboard2 .c-p {
+  cursor: pointer;
+}
+
+.prodashboard2 .card2-pos {
+  position: absolute;
+  left: 60px;
+  bottom: 30px;
+}
+
+.prodashboard2 .fs {
+  font-size: 2.5rem;
+}
+
+.prodashboard2 .pane-image {
+  width: 3em;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.prodashboard2 .badge-container {
+  display: flex;
+  margin: 3rem;
+}
+
+.prodashboard2 .page-footer {
+  background: #333;
+}
+
+.prodashboard2 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.prodashboard2 .footer-link {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  color: #f4f4f4;
+}
+
+.prodashboard2 .sidebar-container {
+  display: flex;
+  height: 100vh;
+}
+.prodashboard2 .main-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.prodashboard2 .fw-600 {
+  font-weight:600;
+}
+.prodashboard2 .height-100 {
+  height:100%;
+}
+.prodashboard2 .title-icon {
+  width: 30px;
+  height: 30px;
+  background: #4f4f4f;
+}
+.prodashboard2 .floating-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.prodashboard2 .card4-badge {
+  width: 120px;
+  height: 100px;
+}
+.prodashboard2 .fs-sm {
+  font-size: 0.7em;
+}
+.prodashboard2 .chart-1 {
+  margin: auto 0 -0.77rem -0.75rem;
+  height: 200px;
+}
+.prodashboard2 .chart-2 {
+  margin: auto 0 -0.77rem -0.75rem;
+  height: 300px;
+}
+.prodashboard2 .chart-3 {
+  height:400px;
+}
+.prodashboard2 .db-header nav {
+  background:#333;
+}
+
+@media (max-width: 1320px) {
+  .prodashboard2 .cards-container {
+    width: 100%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .prodashboard2 .gc-2 {
+    grid-column: span 1;
+  }
+  .prodashboard2 .gr-2 {
+    grid-row: span 1;
+  }
+  .prodashboard2 .badge-container {
+    flex-direction: column;
+  }
+  .prodashboard2 .batch2 {
+    margin-top: 1rem;
+  }
+  .prodashboard2 .footer-rem {
+    display: none !important;
+  }
+  .prodashboard2 .footer {
+    width: 90%;
+  }
+  .prodashboard2 .footer-rem {
+    display: none;
+  }
+  .prodashboard2 .footer small {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .prodashboard2 .scroll-container {
+    padding: 0 0.5rem;
+  }
+  .prodashboard2 .cards-container {
+    width: 100%;
+    margin: 0.5rem auto;
+    max-width: 500px;
+    grid-template-columns: 1fr;
+    font-size: 0.85rem;
+  }
+  .prodashboard2 .card2-pos {
+    left: 20px;
+    bottom: 20px;
+  }
+  .prodashboard2 .fs {
+    font-size: 2rem;
+  }
+  .prodashboard2 .msg-rem {
+    display: none;
+  }
+  .prodashboard2 .pane-image {
+    width: 2.2rem;
+    margin-right: 0.5rem;
+  }
+  .prodashboard2 .panel-card {
+    padding: 10px;
+  }
+  .prodashboard2 .badge-container {
+    margin: 1.5rem 1rem;
+  }
+  .prodashboard2 .footer-link {
+    display: none !important;
+  }
+  .prodashboard2 .footer {
+    width: 90%;
+    text-align: center !important;
+  }
+}
+
+.prodashboard2 .db-header nav {
+  background:#333;
+  color:black;
+  height:64px;
+}
+
+.prodashboard2 .db-header .input-nav {
+  background:transparent;
+  padding:7px;
+  margin-left:5rem !important;
+  width:30rem !important;
+}
+
+.prodashboard2 .db-header .input-nav::placeholder {
+  color:#f2f2f2;
+}
+
+.prodashboard2 .db-header .space {
+  margin-right:1rem;
+}
+
+@media(max-width:1320px) {
+  .prodashboard2 .db-header .input-nav {
+    width:15rem !important;
+  }
+}
+
+@media(max-width:920px) {
+  .prodashboard2 .db-header .input-nav, .db-header .space {
+    display:none;
+  }
+}

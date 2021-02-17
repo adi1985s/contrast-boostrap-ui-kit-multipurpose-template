@@ -1,0 +1,177 @@
+.about2 {
+	width: 80%;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.about2 header a {
+	font-weight:  600;
+}
+
+.about2 .page-title {
+	font-size: 3em;
+	font-weight: 700 !important;
+}
+
+.about2 .image {
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+}
+
+.about2 .container {
+	margin: 0px;
+	padding: 0px;
+	max-width: none;
+}
+
+.about2 .big {
+	font-size: 2.2em;
+	font-weight: 700 !important;
+	margin-top: 6rem !important;
+}
+
+.about2 .intro-title {
+	max-width: none;
+}
+
+.about2 .intro-title + p {
+	width: 100%;
+}
+
+.about2 .card-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.about2 .card-group .card {
+	width: 100%;
+	border: none;
+	display: flex;
+	margin-top: 3rem;
+	flex-direction: row;
+	align-items: center;
+}
+
+.about2 .card-group .card-title {
+	margin-top: 0px;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.about2 .card-group .card-right{
+	flex-direction: row-reverse !important;
+	text-align: right;
+}
+
+.about2 .card-group .card-text{
+	max-width:550px;
+}
+
+.about2 .card-right .card-text{
+	margin-left:auto;
+}
+
+.about2 .info {
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.about2 .contact-section {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.about2 .contact-form {
+	margin: 3rem 0;
+	width:100%;
+	max-width: 400px;
+}
+
+.about2 .contact .font-weight-bold {
+	font-size: 2.5rem;
+}
+
+.about2 iframe {
+	height:450px;
+}
+
+.about2 .footer {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	margin:3rem auto 0 auto;
+}
+
+.about2 .footer-head {
+	display:flex;
+	justify-content: space-between;
+}
+
+.about2 .contact-title {
+	max-width: 310px;
+	line-height: 1.5em;
+}
+
+.about2 .colored-button {
+	border-color:#0000cc;
+	color:#0000cc;
+}
+
+.about2 textarea {
+	height:120px !important;
+}
+
+.about2 .fw-600 {
+	font-weight:600;
+}
+
+.about2 footer ul {
+	padding:0px;
+	list-style:none;
+	cursor:pointer;
+}
+
+
+@media (max-width:  768px) {
+
+	.about2 .page-title {
+		font-size:2em;
+	}
+	.about2 iframe{
+		height:250px;
+	}
+	.about2 .big {
+		font-size:1.5em;
+	}
+	.about2 .card-group .card-title {
+		font-size:1.2em;
+	}
+	.about2 .contact-section {
+		flex-direction: column;
+		align-items:flex-start;
+		margin-top:2rem;
+	}
+	.about2 .contact .font-weight-bold {
+		font-size: 1.8rem;
+	}
+	.about2 .footer-head {
+		display: none;
+	}
+	.about2 .footer small {
+		font-size:1em;
+	}
+	.about2 .fa-moon {
+		color:rgba(0, 0, 0, 0.8) !important;
+		margin-left:10px;
+		margin-bottom:10px;
+	}
+}
+
+@media (max-width:  380px) {
+	.about2 .card-group .card .btn{
+		margin:0;
+	}
+}

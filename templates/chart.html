@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charts</title>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/cdb.css"/>
+    <script src="../contrast-bootstrap-pro/js/bootstrap.min.js"></script>
+    <script src="../contrast-bootstrap-pro/js/cdb.js"></script>
+    <script src="https://kit.fontawesome.com/9d1d9a82d2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div style="height:100vh;">
+          <div class="sidebar" role="cdb-sidebar">
+            <div class="sidebar-container" style="height:100%; overflow-y:auto;">
+              <div class="sidebar-header align-items-center">
+                <a class="sidebar-toggler mb-1"><i class="fa fa-bars"></i></a>
+                <a class="sidebar-brand" href="/">Contrast</a>
+              </div>
+  
+              <div class="sidebar-nav">
+                <div class="sidenav">
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i class="fa fa-columns sidebar-icon"></i>
+                      <span>Dashboards</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseOne">
+                      <a href="../pages/dashboard.html" class="sub-menu-item">Dashboard</a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="true"
+                      aria-controls="collapseThree"
+                    >
+                      <i class="fa fa-paper-plane sidebar-icon"></i>
+                      <span>Hero</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseThree">
+                      <a target="_blank" href="../pages/hero4.html" class="sub-menu-item">Hero 4</a>
+                      <a target="_blank" href="../pages/hero5.html" class="sub-menu-item">Hero 5</a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="true"
+                      aria-controls="collapseFour"
+                    >
+                      <i class="fa fa-sign-in sidebar-icon"></i>
+                      <span>Forms</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseFour">
+                      <a target="_blank" href="../pages/create-account.html" class="sub-menu-item">Create Account</a>
+                      <a target="_blank" href="../pages/forgot-password2.html" class="sub-menu-item">Forgot Password 2</a>
+                      <a target="_blank" href="../pages/signin3.html" class="sub-menu-item">Sign In</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidenav">
+                  <a href="../pages/table.html" class="sidebar-item">
+                    <i class="fa fa-table sidebar-icon"></i>
+                    <span>Tables</span>
+                  </a>
+                  <a href="../pages/profile.html" class="sidebar-item">
+                    <i class="fa fa-user sidebar-icon"></i>
+                    <span>Profile</span>
+                  </a>
+                  <a target="_blank" href="../pages/hero404.html" class="sidebar-item">
+                    <i class="fa fa-exclamation-circle sidebar-icon"></i>
+                    <span>404 Page</span>
+                  </a>
+                  <a target="_blank" href="../pages/pricing.html" class="sidebar-item">
+                    <i class="fa fa-money sidebar-icon"></i>
+                    <span>Pricing</span>
+                  </a>
+                  <a target="_blank" href="../pages/post.html" class="sidebar-item">
+                    <i class="fa fa-rss-square sidebar-icon"></i>
+                    <span>Post</span>
+                  </a>
+                </div>
+                <div class="sidenav">
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="true"
+                      aria-controls="collapseFive"
+                    >
+                      <i class="fas fa-cogs sidebar-icon"></i>
+                      <span>Components</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseFive">
+                      <a href="./accordion.html" class="sub-menu-item">
+                        <i class="fa fa-th-large sidebar-icon"></i>
+                        <span class="text-capitalize">accordion</span>
+                      </a>
+                      <a href="./animation.html" class="sub-menu-item">
+                        <i class="fa fa-radiation fa-spin sidebar-icon"></i>
+                        <span class="text-capitalize">animation</span>
+                      </a>
+                      <a href="./box.html" class="sub-menu-item">
+                        <i class="fa fa-box sidebar-icon"></i>
+                        <span class="text-capitalize">box</span>
+                      </a>
+                      <a href="./card.html" class="sub-menu-item">
+                        <i class="fa fa-id-card sidebar-icon"></i>
+                        <span class="text-capitalize">card</span>
+                      </a>
+                      <a href="./carousel.html" class="sub-menu-item">
+                        <i class="fa fa-sliders-h sidebar-icon"></i>
+                        <span class="text-capitalize">carousel</span>
+                      </a>
+                      <a href="./close-button.html" class="sub-menu-item">
+                        <i class="fa fa-close sidebar-icon"></i>
+                        <span class="text-capitalize">close-button</span>
+                      </a>
+                      <a href="./collapse.html" class="sub-menu-item">
+                        <i class="fa fa-caret-down sidebar-icon"></i>
+                        <span class="text-capitalize">collapse</span>
+                      </a>
+                      <a href="./dropdown.html" class="sub-menu-item">
+                        <i class="fa fa-caret-down sidebar-icon"></i>
+                        <span class="text-capitalize">dropdown</span>
+                      </a>
+                      <a href="./iframe.html" class="sub-menu-item">
+                        <i class="fa fa-crop sidebar-icon"></i>
+                        <span class="text-capitalize">iframe</span>
+                      </a>
+                      <a href="./list-group.html" class="sub-menu-item">
+                        <i class="fa fa-list sidebar-icon"></i>
+                        <span class="text-capitalize">list-group</span>
+                      </a>
+                      <a href="./mask.html" class="sub-menu-item">
+                        <i class="fa fa-mask sidebar-icon"></i>
+                        <span class="text-capitalize">mask</span>
+                      </a>
+                      <a href="./popovers.html" class="sub-menu-item">
+                        <i class="fa fa-dot-circle sidebar-icon"></i>
+                        <span class="text-capitalize">popovers</span>
+                      </a>
+                      <a href="./rating.html" class="sub-menu-item">
+                        <i class="fa fa-star sidebar-icon"></i>
+                        <span class="text-capitalize">rating</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseEleven"
+                      aria-expanded="true"
+                      aria-controls="collapseEleven"
+                    >
+                      <i class="fas fa-flag-checkered sidebar-icon"></i>
+                      <span>Notification</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseEleven">
+                      <a href="./alert.html" class="sub-menu-item">
+                        <i class="fa fa-user-clock sidebar-icon"></i>
+                        <span class="text-capitalize">alert</span>
+                      </a>
+                      <a href="./modal.html" class="sub-menu-item">
+                        <i class="fa fa-medal sidebar-icon"></i>
+                        <span class="text-capitalize">modal</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseTwelve"
+                      aria-expanded="true"
+                      aria-controls="collapseTwelve"
+                    >
+                      <i class="fas fa-spinner sidebar-icon"></i>
+                      <span>Progress</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseTwelve">
+                      <a href="./progress.html" class="sub-menu-item">
+                        <i class="fa fa-spinner sidebar-icon"></i>
+                        <span class="text-capitalize">progress</span>
+                      </a>
+                      <a href="./slider.html" class="sub-menu-item">
+                        <i class="fa fa-sliders-h sidebar-icon"></i>
+                        <span class="text-capitalize">slider</span>
+                      </a>
+                      <a href="./spinner.html" class="sub-menu-item">
+                        <i class="fa fa-spinner fa-spin sidebar-icon"></i>
+                        <span class="text-capitalize">spinner</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseNine"
+                      aria-expanded="true"
+                      aria-controls="collapseNine"
+                    >
+                      <i class="fas fa-mouse sidebar-icon"></i>
+                      <span>Buttons</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseNine">
+                      <a href="./badge.html" class="sub-menu-item">
+                        <i class="fa fa-certificate sidebar-icon"></i>
+                        <span class="text-capitalize">badge</span>
+                      </a>
+                      <a href="./button-group.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button-group</span>
+                      </a>
+                      <a href="./button-toolbar.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button-toolbar</span>
+                      </a>
+                      <a href="./button.html" class="sub-menu-item">
+                        <i class="fa fa-mouse sidebar-icon"></i>
+                        <span class="text-capitalize">button</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseTen"
+                      aria-expanded="true"
+                      aria-controls="collapseTen"
+                    >
+                      <i class="fa fa-sign-in sidebar-icon"></i>
+                      <span>Forms</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseTen">
+                      <a href="./forms.html" class="sub-menu-item">
+                        <i class="fa fa-sign-in sidebar-icon"></i>
+                        <span class="text-capitalize">forms</span>
+                      </a>
+                      <a href="./input.html" class="sub-menu-item">
+                        <i class="fa fa-keyboard sidebar-icon"></i>
+                        <span class="text-capitalize">input</span>
+                      </a>
+                      <a href="./inputgroup.html" class="sub-menu-item">
+                        <i class="fa fa-keyboard sidebar-icon"></i>
+                        <span class="text-capitalize">inputgroup</span>
+                      </a>
+                      <a href="./select.html" class="sub-menu-item">
+                        <i class="fa fa-mouse-pointer sidebar-icon"></i>
+                        <span class="text-capitalize">select</span>
+                      </a>
+                      <a href="./switch.html" class="sub-menu-item">
+                        <i class="fa fa-toggle-on sidebar-icon"></i>
+                        <span class="text-capitalize">switch</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseSix"
+                      aria-expanded="true"
+                      aria-controls="collapseSix"
+                    >
+                      <i class="fas fa-directions sidebar-icon"></i>
+                      <span>Navigation</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseSix">
+                      <a href="./breadcrumb.html" class="sub-menu-item">
+                        <i class="fa fa-route sidebar-icon"></i>
+                        <span class="text-capitalize">breadcrumb</span>
+                      </a>
+                      <a href="./footer.html" class="sub-menu-item">
+                        <i class="fa fa-shoe-prints sidebar-icon"></i>
+                        <span class="text-capitalize">footers</span>
+                      </a>
+                      <a href="./navbar.html" class="sub-menu-item">
+                        <i class="fa fa-directions sidebar-icon"></i>
+                        <span class="text-capitalize">navbar</span>
+                      </a>
+                      <a href="./pagination.html" class="sub-menu-item">
+                        <i class="fa fa-map sidebar-icon"></i>
+                        <span class="text-capitalize">pagination</span>
+                      </a>
+                      <a href="./sidebar.html" class="sub-menu-item">
+                        <i class="fa fa-columns sidebar-icon"></i>
+                        <span class="text-capitalize">sidebar</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar-dropdown">
+                    <div
+                      class="sidebar-item"
+                      data-toggle="collapse"
+                      data-target="#collapseSeven"
+                      aria-expanded="true"
+                      aria-controls="collapseSeven"
+                    >
+                      <i class="fas fa-table sidebar-icon"></i>
+                      <span>Table</span>
+                      <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                    </div>
+                    <div class="sidebar-sub-menu collapse" id="collapseSeven">
+                      <a href="./chart.html" class="sub-menu-item">
+                        <i class="fa fa-chart-bar sidebar-icon"></i>
+                        <span class="text-capitalize">chart</span>
+                      </a>
+                      <a href="./datatable.html" class="sub-menu-item">
+                        <i class="fa fa-table sidebar-icon"></i>
+                        <span class="text-capitalize">datatables</span>
+                      </a>
+                      <a href="./table.html" class="sub-menu-item">
+                        <i class="fa fa-table sidebar-icon"></i>
+                        <span class="text-capitalize">table</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="sidebar-footer">Sidebar Footer</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="w-100" style="height:100vh; overflow-y:scroll; background:#ecebeb">
+        
+        <div class="shadow">
+          <header class="db-header">
+            <nav class="d-flex justify-content-between align-items-center px-3 py-2">
+              <div class="cdb-form mb-0">
+                <input type="search" placeholder="Search" class="input-nav"/>
+              </div>
+              <div class="ml-auto d-flex align-items-center">
+                <div class="d-flex align-items-center mr-3">
+                  <i class="fas fa-bell mr-3 fa-lg"></i>
+                  <i class="fas fa-comment-alt fa-lg"></i>
+                </div>
+                <img class="pane-sm" src="../img/pane/pane4.png" />
+              </div>
+            </nav>
+          </header>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb breadcrumb-flat py-3 bg-white">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item">Library</li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="mx-auto r-w">
+          <div class="container-alert">
+            <div class="blockcode">
+              <div class="header">Bar Charts</div>
+              <div class="description"></div>
+              <div class="example p-0">
+                <div style="width: 80%; margin: 0 auto">
+                  <canvas id="chart1" width="350" height="400"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="blockcode">
+              <div class="header">Line Charts</div>
+              <div class="description"></div>
+              <div class="example2 p-0">
+                <div style="width: 80%; margin: 0 auto">
+                  <canvas id="chart2" width="350" height="400"></canvas>
+                </div>
+              </div>
+
+              <div class="blockcode">
+                <div class="header">Bubble Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart3" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blockcode">
+                <div class="header">Scatter Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart4" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blockcode">
+                <div class="header">Pie Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart5" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blockcode">
+                <div class="header">Doughnut Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart6" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blockcode">
+                <div class="header">Polar Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart7" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="blockcode">
+                <div class="header">Radar Charts</div>
+                <div class="description"></div>
+                <div class="example2 p-0">
+                  <div style="width: 80%; margin: 0 auto">
+                    <canvas id="chart8" width="350" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script>
+      var chart1 = document.getElementById('chart1').getContext('2d');
+      var chart2 = document.getElementById('chart2').getContext('2d');
+      var chart3 = document.getElementById('chart3').getContext('2d');
+
+      var chart4 = document.getElementById('chart4').getContext('2d');
+
+      var chart5 = document.getElementById('chart5').getContext('2d');
+
+      var chart6 = document.getElementById('chart6').getContext('2d');
+
+      var chart7 = document.getElementById('chart7').getContext('2d');
+      var chart8 = document.getElementById('chart8').getContext('2d');
+
+      var barChart = new Chart(chart1, {
+        type: 'bar',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [
+            {
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+              ],
+              borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+              ],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+
+      var lineChart = new Chart(chart2, {
+        type: 'line',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [
+            {
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+              ],
+              borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+              ],
+              borderWidth: 1,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+
+      var bubbleChart = new Chart(chart3, {
+        type: 'bubble',
+        data: {
+          labels: ['Bubble'],
+          datasets: [
+            {
+              label: 'My First dataset',
+              fill: false,
+              lineTension: 0.1,
+              backgroundColor: 'rgba(194, 116, 161, 0.5)',
+              borderColor: 'rgb(194, 116, 161)',
+              borderCapStyle: 'butt',
+              borderDash: [],
+              borderDashOffset: 0.0,
+              borderJoinStyle: 'miter',
+              pointBorderColor: 'rgba(194, 116, 161, 0.5)',
+              pointBackgroundColor: '#fff',
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+              pointHoverBorderColor: 'rgba(220,220,220,1)',
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10,
+              data: [
+                { x: 65, y: 75 },
+                { x: 75, y: 12 },
+                { x: 89, y: 54 },
+                { x: 94, y: 23 },
+                { x: 59, y: 49 },
+                { x: 80, y: 90 },
+                { x: 81, y: 29 },
+                { x: 56, y: 36 },
+                { x: 55, y: 25 },
+                { x: 40, y: 18 },
+              ],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+        },
+      });
+      var scatterChart = new Chart(chart4, {
+        type: 'scatter',
+        data: {
+          datasets: [
+            {
+              label: 'Scatter Dataset',
+              data: [
+                {
+                  x: -10,
+                  y: 0,
+                },
+                {
+                  x: 0,
+                  y: 10,
+                },
+                {
+                  x: 10,
+                  y: 5,
+                },
+                { x: 3, y: 4 },
+                { x: 12, y: -4 },
+                { x: -2, y: 8 },
+              ],
+            },
+          ],
+        },
+        options: {
+          scales: {
+            xAxes: [
+              {
+                type: 'linear',
+                position: 'bottom',
+              },
+            ],
+          },
+        },
+      });
+
+      var pieChart = new Chart(chart5, {
+        type: 'pie',
+        data: {
+          labels: [
+            'Eating',
+            'Drinking',
+            'Sleeping',
+            'Designing',
+            'Coding',
+            'Cycling',
+            'Running',
+          ],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: 'rgba(194, 116, 161, 0.5)',
+              borderColor: 'rgb(194, 116, 161)',
+              data: [65, 59, 90, 81, 56, 55, 40],
+            },
+            {
+              label: 'My Second dataset',
+              backgroundColor: 'rgba(71, 225, 167, 0.5)',
+              borderColor: 'rgb(71, 225, 167)',
+              data: [28, 48, 40, 19, 96, 27, 100],
+            },
+          ],
+        },
+        options: { responsive: true },
+      });
+
+      var doughnutChart = new Chart(chart6, {
+        type: 'doughnut',
+        data: {
+          labels: [
+            'Eating',
+            'Drinking',
+            'Sleeping',
+            'Designing',
+            'Coding',
+            'Cycling',
+            'Running',
+          ],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: 'rgba(194, 116, 161, 0.5)',
+              borderColor: 'rgb(194, 116, 161)',
+              data: [65, 59, 90, 81, 56, 55, 40],
+            },
+            {
+              label: 'My Second dataset',
+              backgroundColor: 'rgba(71, 225, 167, 0.5)',
+              borderColor: 'rgb(71, 225, 167)',
+              data: [28, 48, 40, 19, 96, 27, 100],
+            },
+          ],
+        },
+        options: { responsive: true },
+      });
+
+      var polarChart = new Chart(chart7, {
+        type: 'polarArea',
+        data: {
+          labels: [
+            'Eating',
+            'Drinking',
+            'Sleeping',
+            'Designing',
+            'Coding',
+            'Cycling',
+            'Running',
+          ],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: 'rgba(194, 116, 161, 0.5)',
+              borderColor: 'rgb(194, 116, 161)',
+              data: [65, 59, 90, 81, 56, 55, 40],
+            },
+            {
+              label: 'My Second dataset',
+              backgroundColor: 'rgba(71, 225, 167, 0.5)',
+              borderColor: 'rgb(71, 225, 167)',
+              data: [28, 48, 40, 19, 96, 27, 100],
+            },
+          ],
+        },
+        options: { responsive: true },
+      });
+
+      var radarChart = new Chart(chart8, {
+        type: 'radar',
+        data: {
+          labels: [
+            'Eating',
+            'Drinking',
+            'Sleeping',
+            'Designing',
+            'Coding',
+            'Cycling',
+            'Running',
+          ],
+          datasets: [
+            {
+              label: 'My First dataset',
+              backgroundColor: 'rgba(194, 116, 161, 0.5)',
+              borderColor: 'rgb(194, 116, 161)',
+              data: [65, 59, 90, 81, 56, 55, 40],
+            },
+            {
+              label: 'My Second dataset',
+              backgroundColor: 'rgba(71, 225, 167, 0.5)',
+              borderColor: 'rgb(71, 225, 167)',
+              data: [28, 48, 40, 19, 96, 27, 100],
+            },
+          ],
+        },
+        options: { responsive: true },
+      });
+    </script>
+    <script>
+      const sidebar = document.querySelector('.sidebar');
+      new CDB.Sidebar(sidebar);
+    </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+  </body>
+</html>

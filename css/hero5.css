@@ -1,0 +1,62 @@
+.hero5 .page-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.hero5 .page-header .navigation {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero5 .page-header a {
+  font-weight: bold;
+  color:white;
+}
+
+.hero5 .mw-70 {
+  max-width: 70%;
+}
+
+.hero5 .colored-button {
+  background: #8080ff;
+  border-color: #8080ff;
+}
+
+.hero5 .page-body {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+  overflow-y:scroll;
+}
+
+.hero5 .page-bg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero5 .page-content {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.hero5 .page-intro {
+  width: 80%;
+  margin: 12rem auto 0 auto;
+}
+
+@media (max-width: 720px) {
+  .hero5 .page-header .collapse {
+    text-align: center;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  .hero5 .page-header a {
+    color: black !important;
+  }
+  .hero5 .page-header .border-white {
+    border-color: black !important;
+  }
+}

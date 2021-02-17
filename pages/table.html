@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="../css/table.css"/>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../contrast-bootstrap-pro/css/cdb.css"/>
+    <script src="../contrast-bootstrap-pro/js/cdb.js"></script>
+    <script src="../contrast-bootstrap-pro/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9d1d9a82d2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="table-page d-flex">
+      <div class="d-flex" style="height:100vh;">
+        <div class="sidebar" role="cdb-sidebar">
+          <div class="sidebar-container" style="height:100%; overflow-y:auto;">
+            <div class="sidebar-header align-items-center">
+              <a class="sidebar-toggler mb-1"><i class="fa fa-bars"></i></a>
+              <a class="sidebar-brand" href="/">Contrast</a>
+            </div>
+
+            <div class="sidebar-nav">
+              <div class="sidenav">
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <i class="fa fa-columns sidebar-icon"></i>
+                    <span>Dashboards</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseOne">
+                    <a href="./dashboard.html" class="sub-menu-item">Dashboard</a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    <i class="fa fa-paper-plane sidebar-icon"></i>
+                    <span>Hero</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseThree">
+                    <a target="_blank" href="./hero4.html" class="sub-menu-item">Hero 4</a>
+                    <a target="_blank" href="./hero5.html" class="sub-menu-item">Hero 5</a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    <i class="fa fa-sign-in sidebar-icon"></i>
+                    <span>Forms</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseFour">
+                    <a target="_blank" href="./create-account.html" class="sub-menu-item">Create Account</a>
+                    <a target="_blank" href="./forgot-password2.html" class="sub-menu-item">Forgot Password 2</a>
+                    <a target="_blank" href="./signin3.html" class="sub-menu-item">Sign In</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidenav">
+                <a href="./table.html" class="sidebar-item">
+                  <i class="fa fa-table sidebar-icon"></i>
+                  <span>Tables</span>
+                </a>
+                <a href="./profile.html" class="sidebar-item">
+                  <i class="fa fa-user sidebar-icon"></i>
+                  <span>Profile</span>
+                </a>
+                <a target="_blank" href="./hero404.html" class="sidebar-item">
+                  <i class="fa fa-exclamation-circle sidebar-icon"></i>
+                  <span>404 Page</span>
+                </a>
+                <a target="_blank" href="./pricing.html" class="sidebar-item">
+                  <i class="fa fa-money sidebar-icon"></i>
+                  <span>Pricing</span>
+                </a>
+                <a target="_blank" href="./post.html" class="sidebar-item">
+                  <i class="fa fa-rss-square sidebar-icon"></i>
+                  <span>Post</span>
+                </a>
+              </div>
+              <div class="sidenav">
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="true"
+                    aria-controls="collapseFive"
+                  >
+                    <i class="fas fa-cogs sidebar-icon"></i>
+                    <span>Components</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseFive">
+                    <a href="../templates/accordion.html" class="sub-menu-item">
+                      <i class="fa fa-th-large sidebar-icon"></i>
+                      <span class="text-capitalize">accordion</span>
+                    </a>
+                    <a href="../templates/animation.html" class="sub-menu-item">
+                      <i class="fa fa-radiation fa-spin sidebar-icon"></i>
+                      <span class="text-capitalize">animation</span>
+                    </a>
+                    <a href="../templates/box.html" class="sub-menu-item">
+                      <i class="fa fa-box sidebar-icon"></i>
+                      <span class="text-capitalize">box</span>
+                    </a>
+                    <a href="../templates/card.html" class="sub-menu-item">
+                      <i class="fa fa-id-card sidebar-icon"></i>
+                      <span class="text-capitalize">card</span>
+                    </a>
+                    <a href="../templates/carousel.html" class="sub-menu-item">
+                      <i class="fa fa-sliders-h sidebar-icon"></i>
+                      <span class="text-capitalize">carousel</span>
+                    </a>
+                    <a href="../templates/close-button.html" class="sub-menu-item">
+                      <i class="fa fa-close sidebar-icon"></i>
+                      <span class="text-capitalize">close-button</span>
+                    </a>
+                    <a href="../templates/collapse.html" class="sub-menu-item">
+                      <i class="fa fa-caret-down sidebar-icon"></i>
+                      <span class="text-capitalize">collapse</span>
+                    </a>
+                    <a href="../templates/dropdown.html" class="sub-menu-item">
+                      <i class="fa fa-caret-down sidebar-icon"></i>
+                      <span class="text-capitalize">dropdown</span>
+                    </a>
+                    <a href="../templates/iframe.html" class="sub-menu-item">
+                      <i class="fa fa-crop sidebar-icon"></i>
+                      <span class="text-capitalize">iframe</span>
+                    </a>
+                    <a href="../templates/list-group.html" class="sub-menu-item">
+                      <i class="fa fa-list sidebar-icon"></i>
+                      <span class="text-capitalize">list-group</span>
+                    </a>
+                    <a href="../templates/mask.html" class="sub-menu-item">
+                      <i class="fa fa-mask sidebar-icon"></i>
+                      <span class="text-capitalize">mask</span>
+                    </a>
+                    <a href="../templates/popovers.html" class="sub-menu-item">
+                      <i class="fa fa-dot-circle sidebar-icon"></i>
+                      <span class="text-capitalize">popovers</span>
+                    </a>
+                    <a href="../templates/rating.html" class="sub-menu-item">
+                      <i class="fa fa-star sidebar-icon"></i>
+                      <span class="text-capitalize">rating</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseEleven"
+                    aria-expanded="true"
+                    aria-controls="collapseEleven"
+                  >
+                    <i class="fas fa-flag-checkered sidebar-icon"></i>
+                    <span>Notification</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseEleven">
+                    <a href="../templates/alert.html" class="sub-menu-item">
+                      <i class="fa fa-user-clock sidebar-icon"></i>
+                      <span class="text-capitalize">alert</span>
+                    </a>
+                    <a href="../templates/modal.html" class="sub-menu-item">
+                      <i class="fa fa-medal sidebar-icon"></i>
+                      <span class="text-capitalize">modal</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseTwelve"
+                    aria-expanded="true"
+                    aria-controls="collapseTwelve"
+                  >
+                    <i class="fas fa-spinner sidebar-icon"></i>
+                    <span>Progress</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseTwelve">
+                    <a href="../templates/progress.html" class="sub-menu-item">
+                      <i class="fa fa-spinner sidebar-icon"></i>
+                      <span class="text-capitalize">progress</span>
+                    </a>
+                    <a href="../templates/slider.html" class="sub-menu-item">
+                      <i class="fa fa-sliders-h sidebar-icon"></i>
+                      <span class="text-capitalize">slider</span>
+                    </a>
+                    <a href="../templates/spinner.html" class="sub-menu-item">
+                      <i class="fa fa-spinner fa-spin sidebar-icon"></i>
+                      <span class="text-capitalize">spinner</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseNine"
+                    aria-expanded="true"
+                    aria-controls="collapseNine"
+                  >
+                    <i class="fas fa-mouse sidebar-icon"></i>
+                    <span>Buttons</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseNine">
+                    <a href="../templates/badge.html" class="sub-menu-item">
+                      <i class="fa fa-certificate sidebar-icon"></i>
+                      <span class="text-capitalize">badge</span>
+                    </a>
+                    <a href="../templates/button-group.html" class="sub-menu-item">
+                      <i class="fa fa-mouse sidebar-icon"></i>
+                      <span class="text-capitalize">button-group</span>
+                    </a>
+                    <a href="../templates/button-toolbar.html" class="sub-menu-item">
+                      <i class="fa fa-mouse sidebar-icon"></i>
+                      <span class="text-capitalize">button-toolbar</span>
+                    </a>
+                    <a href="../templates/button.html" class="sub-menu-item">
+                      <i class="fa fa-mouse sidebar-icon"></i>
+                      <span class="text-capitalize">button</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseTen"
+                    aria-expanded="true"
+                    aria-controls="collapseTen"
+                  >
+                    <i class="fa fa-sign-in sidebar-icon"></i>
+                    <span>Forms</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseTen">
+                    <a href="../templates/forms.html" class="sub-menu-item">
+                      <i class="fa fa-sign-in sidebar-icon"></i>
+                      <span class="text-capitalize">forms</span>
+                    </a>
+                    <a href="../templates/input.html" class="sub-menu-item">
+                      <i class="fa fa-keyboard sidebar-icon"></i>
+                      <span class="text-capitalize">input</span>
+                    </a>
+                    <a href="../templates/inputgroup.html" class="sub-menu-item">
+                      <i class="fa fa-keyboard sidebar-icon"></i>
+                      <span class="text-capitalize">inputgroup</span>
+                    </a>
+                    <a href="../templates/select.html" class="sub-menu-item">
+                      <i class="fa fa-mouse-pointer sidebar-icon"></i>
+                      <span class="text-capitalize">select</span>
+                    </a>
+                    <a href="../templates/switch.html" class="sub-menu-item">
+                      <i class="fa fa-toggle-on sidebar-icon"></i>
+                      <span class="text-capitalize">switch</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="true"
+                    aria-controls="collapseSix"
+                  >
+                    <i class="fas fa-directions sidebar-icon"></i>
+                    <span>Navigation</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseSix">
+                    <a href="../templates/breadcrumb.html" class="sub-menu-item">
+                      <i class="fa fa-route sidebar-icon"></i>
+                      <span class="text-capitalize">breadcrumb</span>
+                    </a>
+                    <a href="../templates/footer.html" class="sub-menu-item">
+                      <i class="fa fa-shoe-prints sidebar-icon"></i>
+                      <span class="text-capitalize">footers</span>
+                    </a>
+                    <a href="../templates/navbar.html" class="sub-menu-item">
+                      <i class="fa fa-directions sidebar-icon"></i>
+                      <span class="text-capitalize">navbar</span>
+                    </a>
+                    <a href="../templates/pagination.html" class="sub-menu-item">
+                      <i class="fa fa-map sidebar-icon"></i>
+                      <span class="text-capitalize">pagination</span>
+                    </a>
+                    <a href="../templates/sidebar.html" class="sub-menu-item">
+                      <i class="fa fa-columns sidebar-icon"></i>
+                      <span class="text-capitalize">sidebar</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar-dropdown">
+                  <div
+                    class="sidebar-item"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="true"
+                    aria-controls="collapseSeven"
+                  >
+                    <i class="fas fa-table sidebar-icon"></i>
+                    <span>Table</span>
+                    <i class="fa fa-angle-right arrow-wrapper ml-auto"></i>
+                  </div>
+                  <div class="sidebar-sub-menu collapse" id="collapseSeven">
+                    <a href="../templates/chart.html" class="sub-menu-item">
+                      <i class="fa fa-chart-bar sidebar-icon"></i>
+                      <span class="text-capitalize">chart</span>
+                    </a>
+                    <a href="../templates/datatable.html" class="sub-menu-item">
+                      <i class="fa fa-table sidebar-icon"></i>
+                      <span class="text-capitalize">datatables</span>
+                    </a>
+                    <a href="../templates/table.html" class="sub-menu-item">
+                      <i class="fa fa-table sidebar-icon"></i>
+                      <span class="text-capitalize">table</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar-footer">Sidebar Footer</div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100"
+        style="
+          flex: 1 1 auto;
+          display: flex;
+          flex-flow: column;
+          height: 100vh;
+          overflow-y: hidden;
+        ">
+        <header class="db-header">
+          <nav class="d-flex justify-content-between align-items-center px-3 py-2">
+            <div class="cdb-form mb-0">
+              <input type="search" placeholder="Search" class="input-nav"/>
+            </div>
+            <div class="ml-auto d-flex align-items-center">
+              <div class="d-flex align-items-center mr-3">
+                <i class="fas fa-bell mr-3 fa-lg"></i>
+                <i class="fas fa-comment-alt fa-lg"></i>
+              </div>
+              <img class="pane-sm" src="../img/pane/pane4.png" />
+            </div>
+          </nav>
+        </header>
+        <div style="height:100%;">
+          <div style="height:calc(100% - 64px); overflow-y:scroll;">
+          <div class="mx-auto" style="width:90%;">
+            <div class="blockcode">
+              <div class="header">Basic Table</div>
+              <div class="description">
+              </div>
+              <div class="example">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Basic Tables -->
+            <div class="blockcode">
+              <div class="header">Variants</div>
+              <div class="description">
+                <!--  -->
+              </div>
+              <div class="example">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Class</th>
+                      <th scope="col">Heading</th>
+                      <th scope="col">Heading</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Default</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+
+                    <tr class="table-primary">
+                      <th scope="row">Primary</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-secondary">
+                      <th scope="row">Secondary</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">Success</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-danger">
+                      <th scope="row">Danger</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th scope="row">Warning</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-info">
+                      <th scope="row">Info</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th scope="row">Light</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                    <tr class="table-dark">
+                      <th scope="row">Dark</th>
+                      <td>Cell</td>
+                      <td>Cell</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Basic Tables -->
+            <div class="blockcode">
+              <div class="header">Responsive Table</div>
+              <div class="description">
+                <!--  -->
+              </div>
+              <div class="example">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="blockcode">
+              <div class="header">Accented Rows</div>
+              <div class="description">Striped Rows</div>
+              <div class="example">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="blockcode">
+              <div class="header">Dark tables</div>
+              <div class="example">
+                <table class="table table-dark table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="blockcode">
+              <div class="header">Hoverable Rows</div>
+              <div class="example">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const sidebar = document.querySelector('.sidebar');
+      new CDB.Sidebar(sidebar);
+    </script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+  </body>
+</html>

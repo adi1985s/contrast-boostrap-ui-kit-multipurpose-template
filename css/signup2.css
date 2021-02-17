@@ -1,0 +1,80 @@
+.signUp2 {
+	max-width:1320px;
+}
+
+.signUp2 .image {
+	width:100%;
+	height:100vh;
+	object-fit:cover;
+	-moz-object-fit: cover;
+	-ms-object-fit: cover;
+}
+
+.signUp2 .body {
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+
+.signUp2 .body .navigation {
+	width:80%;
+	padding-left:0;
+	padding-right:0;
+	margin:0 auto;
+}
+
+.signUp2 .form {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:50%;
+	border:none;
+	height:100vh;
+	display:flex;
+	margin-left:auto;
+	align-items:center;
+	justify-content:center;
+}
+
+.signUp2 .form-body {
+	flex:none;
+	width:80%;
+	margin:auto 0;
+	max-width:350px;
+}
+
+.signUp2 .fw-600 {
+	font-weight:600;
+}
+
+.signUp2 .line1 {
+	border:0.5px solid black;
+	width:45%;
+}
+.signUp2 .or {
+	width:10%;
+}
+.signUp2 .mw-300 {
+	min-width:300px;
+}
+
+@media (max-width:720px) {
+
+	.signUp2 .position-relative {
+		display:none;
+	}
+
+	.signUp2 .body .navigation {
+		width:90%;
+		margin-top:0.5em;
+	}
+
+	.signUp2 .form {
+		position:static;
+		height:auto;
+		margin:1em auto 0;
+		width:90%;
+	}
+}
