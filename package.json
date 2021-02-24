@@ -11,12 +11,9 @@
     "url": "git+https://github.com/Devwares-Team/cdbjs-showcase.git"
   },
   "author": "Devwares Team",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Devwares-Team/cdbjs-showcase/issues"
   },
-  "homepage": "https://github.com/Devwares-Team/cdbjs-showcase#readme",
-  "dependencies": {
-    "contrast-bootstrap-free": "file:contrast-bootstrap-free-1.0.0.tgz"
-  }
+  "homepage": "https://github.com/Devwares-Team/cdbjs-showcase#readme"
 }
